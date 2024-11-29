@@ -9,8 +9,8 @@ terraform {
 provider "google" {
 
   project = "Project ID"
-  region  = "Region"
-  zone    = "Zone"
+  region  = "Europe"
+  zone    = "europe-west9-a"
 }
 
 resource "google_compute_instance" "terraform" {
